@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Fly with me</title>
+</head>
+<body>
+	<header>
+		<div>
+			<h1>Come Fly With Me</h1>
+		</div>
+		<img src="images/flyme.jpg"><!--background img-->
+	</header>
+	<section>
+		<h2>Podnaslov</h2>
+		<!--podnaslov traka sa maketing tagovima-->
+	</section>
+	<!--PONUDE-->
+	<section>
+		1<figure>
+			<img src="images/pariz1.jpg">
+			<figcaption>
+				<h3>Pariz, Francuska</h3>
+				<p>Pariz je grad koji turistima ima toliko toga da ponudi, zbog čega je jedan od najposećenijih gradova na svetu. To je grad u kome ćete uživati u živopisnoj arhitekturi, kuhinji svetskog glasa, plovidbi Senom ili šetnjom duž njenih obala, kroz izuvijane kaldrmisane uličice, hodnike muzeja i galerija koji su ispunjeni vrhunskim dostignućima umetnosti…
+				Dobro obavešten, elokventan i ah! tako romantičan, ’’Grad svetlosti’’ nalikuje i filozofu i pesniku i pevaču sentimentalnih pesama istovremeno. Kako je oduvek i bilo, Pariz predstavlja milion različitih stvari za milion različitih ljudi, i nikako nije nijedan superlativ koji se može pripisati nekom gradu. Notr Dam i Ajfelova Kula, za vreme izlaska i zalaska sunca ili noću, opisivani su bezbroj puta.</p>
+			</figcaption>
+		</figure>
+		2<figure>
+			<img src="images/rim.jpg">
+			<figcaption>
+				<h3>Rim, Italija</h3>
+				<p>Svi putevi vode u Rim” – glasi stara izreka. Bez obzira na put koji je odabrao, posetilac mora znati da će mu se pružiti prilika da razgleda i proučava istorijsko i umetničko blago svetskih razmera, budući da je rimska civilizacija, zajedno sa grčkom, bila velika kolevka zapadne civilizacije. Napulj je treći po veličini grad u Italiji. Poznat je po nizu posebnosti: obližnjem vulkanu Vezuv i drevnoj Pompeji, pod zaštitom je UNESCO-a. Sorento je jedno od najpoznatijih letovališta Italije. Romantični grad sunca, otmen, gostoprimljiv i prepun mediteranskog duha. Visoka brda, doline i planine pretvaraju se u terase koje se spuštaju ka moru.</p>
+			</figcaption>
+		</figure>
+		3<figure>
+			<img src="images/sevilja.jpg">
+			<figcaption>
+				<h3>Sevilja, Spanija</h3>
+				<p>Sevilja je mesto tradicionalne andaluzijske arhitekture, velikih festivalskih slavlja i iskričave umetnosti. Sevilja je grad za svako godišnje doba. Zabavljajte se u Plaza Alfalfi i Kale Betisu ili uživajte u samoći u nedeljnim popodnevnim časovima šetajući duž obale reke, ili kroz Park Marije Lujze (Parque de Maria Luisa). Ljubitelji kulture mogu da posete neki od mnogobrojnih muzeja i megalitskih spomenika drevnog doba, a svi će biti fascinirani i najmanjim detaljem ove oaze bogate istorijom.</p>
+			</figcaption>
+		</figure>
+		4<figure>
+			<img src="images/montekarlo.jpg">
+			<figcaption>
+				<h3>Monte Karlo, Monako</h3>
+				<p>Monte Karlo je poznat kao mesto boravka milionera, ali ipak ovaj izuzetni grad predstavlja mnogo više od toga. Deo je Monaka, majušne samoupravne kneževine.
+				U duhovnom središtu Monako Vila nalazi se trg Palate, na kojem stoji veličanstvena palata koju legendarna porodica Grimaldi i dalje čuva. Njihova turbulentna istorija, začinjena glamurom, tragedijom i dramom, daje jedinstven duh Monte Karlu i doprinosi njegovoj mistici.</p>
+			</figcaption>
+		</figure>
+		5<figure>
+			<img src="images/ba.jpg">
+			<figcaption>
+				<h3>Buenos Ajres, Argentina</h3>
+				<p>Buenos Ajres, kosmopolitska metropola, u kojoj ćete naći i raskošne stambene blokove i siromašne oblasti - ali sve to je deo njegovog šarma. To je elegantan, jedinstven grad sa vrlo malo nesavršenosti.
+				Obiđite neke od starih prodavnica u San Telmu ili posetite spektakularni vašar koji se održava svake nedelje. Možete da naučite da igrate tango ili da uživate u nekoj od fudbalskih utakmica, svetski poznatih klubova, River Plata i Boka juniorsa. Posetite ovaj izuzetni grad i shvatićete zašto se veliki broj ljudi zaljubio u njega, toliko da su neki čak odlučili da tu i ostanu.</p>
+			</figcaption>
+		</figure>
+		6<figure>
+			<img src="images/marakes.jpg">
+			<figcaption>
+				<h3>Marakes, Maroko</h3>
+				<p>Započnite svoje putovanje u Marakešu od trga Džama el-Fna, jednog od najposećenijih trgova u čitavoj Africi. Ako uspete da se odvojite od prodavaca vode koji lupkaju kastanjetama, plesača i akrobata, uputite se u lavirint pijačnih uličica. Pijaca (souk) u Marakešu je prava atrakcija, a u nju možete ući iz bilo koje ulice koja se proteže ka severu izvan trga Džama el-Fna. Marakeš takođe poseduje zanimljive muzeje, kao i istorijske i arhitektonske lokalitete koje morate posetiti.</p>
+			</figcaption>
+		</figure>
+	</section>
+	<!--Kraj PONUDA-->
+	<section>
+		<h2>Detaljno pretrazivanje</h2>
+		<form action="#" method="POST" autocomplete="on" enctype="multipart/form-datd">
+			<input type="hidden" name="id" value="ID_1234"/>
+			<label for="destinacijafld">Naziv destinacije</label>
+			<input id="destinacijafld" type="text" name="destinacija" size="20" maxlength="20" list="listadestinacija"/>
+				<datalist id="listadestinacija">
+					<option>Pariz, Francuska</option>
+					<option>Rim, Italija</option>
+					<option>Sevilja, Spanija</option>
+					<option>Monte Karlo, Monako</option>
+					<option>Buenos Ajres, Argentina</option>
+					<option>Marakes, Maroko</option>
+				</datalist>
+			<label for="vrstaputovanjafld">Vrsta putovanja</label>
+			<input id="vrstaputovanjafld" type="text" name="vrstaputovanja" placeholder="Vrsta putovanja" size="20" maxlength="20" list="listavrsta"/>
+				<datalist id="listavrsta">
+					<option>Letovanje</option>
+					<option>Zimovanje</option>
+					<option>Metropole</option>
+					<option>Specijalne ponude</option>
+					<option>14. februar</option>
+				</datalist>
+			<!--prijave-->
+			<h2>Korisnicki podaci</h2>
+			<label for="imefld">Ime</label>
+				<input id="imefld" type="text" name="ime" placeholder="Ime" size="10" maxlength="10"/>
+			<label for="prezimefld">Prezime</label>
+				<input id="prezimefld" type="text" name="prezime" placeholder="Prezime" size="15" maxlength="15"/>
+			<label for="gradfld">Grad</label>
+				<input id="gradfld" type="text" name="grad" placeholder="Grad" size="10" maxlength="10"/>
+			<label for="telfil">Telefon:</label>
+				<input id="telfil" type="tel" name="telefon" placeholder="+381 xx xxxxxxx" size="15" maxlength="15"/>
+			<label for="emfld">El. Posta</label>
+				<input id="emfld" type="email" name="email" placeholder="www.xxx@gmail.com"/>
+			<!--BROJ PUTNIKA-->	
+			<label for="selectbox">Broj putnika</label>
+				<select id="selectbox" name="Broj Putnika">
+					<option selected="selected" value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+				</select>
+			<!--TIP SMESTAJA-->
+			<fieldset>
+				<h3>Tip Smestaja</h3>
+				<label for="sobafld">Soba</label>
+					<input id="sobafld" type="radio" name="smestaj" value="soba"/>
+				<label for="apartmanfld">Apartman</label>
+					<input id="apartmanfld" type="radio" name="smestaj" value="apartman"/>
+				<label for="hotelNDfld">Hotel nocenje + dorucak</label>
+					<input id="hotelNDfld" type="radio" name="smestaj" value="hotel ND"/>
+				<label for="hotelPPfld">Polu Pansion</label>
+					<input id="hotelPPfld" type="radio" name="smestaj" value="hotel PP"/>
+				<label for="hotelALfld">Hotel Pun Pansion</label>
+					<input id="hotelALfld" type="radio" name="smestaj" value="hotel AL"/>
+			</fieldset>
+			<input type="submit" value="Posalji"/>
+		</form>
+	</section>
+	<footer>copyright 2018.</footer>
+</body>
+</html>

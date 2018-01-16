@@ -1,0 +1,101 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding:0;
+    font-family: "MS Trebuchet", Verdana,sans-serif;
+    background-color: SkyBlue;
+}
+h1{
+    margin:0;
+    padding: 5px;
+    color: #2b91c7;
+    text-align: center;
+}
+
+header{
+    background: #cfcfcf;
+    min-height: 200px;
+    max-height: 600px;
+    width:100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+header img{
+	width:100%;
+}
+
+.gnaslov{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.gnaslov h1{
+    display: inline-block;
+    font-size: 4.25em;
+    font-family: arabella;
+    line-height:2em;
+    padding: 1.5em;
+    color: crimson;  
+    box-shadow: 2px 2px 30px 4px white;
+}
+
+section{
+    width:100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.podnaslov {
+    left: 100%;
+}
+
+.podnaslov h2{display: inline-block;
+    font-size: 2.25em;
+    font-family: arabella;
+    line-height: 3em;
+    padding: 0.5em;
+    color: deeppink;
+    background: rgba(255,255,255,0.25);
+    box-shadow: 2px 2px 30px 4px black;
+    text-align: center;
+}
+
+.slicice{
+    width: 890px;
+    margin:0 auto;
+}
+figure {
+    display: inline-block;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #017c30;
+    margin: 20px 10px;
+    overflow: hidden;
+}
+figure img{
+    width: 100%;
+}
+
+figcaption{
+    padding: 0.5em;
+    background:#cfcfcf;
+}
+
+footer{
+    display: block;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #2b91c7;
+    line-height: 2em;
+    text-align: center;
+    height:60px;
+    margin-left: auto;
+    margin-right: auto;
+}
